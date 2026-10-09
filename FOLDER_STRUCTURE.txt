@@ -1,0 +1,87 @@
+AVA AI RECEPTIONIST - FOLDER STRUCTURE
+======================================
+               
+
+
+Web access (Port)
+-------------------------------------------------------
+Frontend     http://localhost:5180  
+Backend      http://localhost:8310    
+phpMyAdmin   http://localhost:8320
+MySQL        127.0.0.1:3325
+
+
+Ava_AI_Receptionist/
+|
+|--docker-compose.yml  
+|-- frontend/          : FRONTEND  (React + Vite + Bootstrap 5)       
+|-- backend/           : BACKEND  (Python FastAPI + MySQL)
+
+
+frontend/
+|
+|-- .env           
+|-- .dockerignore               
+|-- Dockerfile                  
+|-- index.html                  
+|-- package.json                
+|-- package-lock.json           
+|-- vite.config.js              
+|-- node_modules/               
+|
+--- src/
+    |-- main.jsx                
+    |-- App.jsx                 
+    |-- config.js               
+    |
+    |-- components/             
+    |   |-- Navbar.jsx          
+    |   |-- Footer.jsx          
+    |   --- Chatbox.jsx         
+    |
+    |-- layouts/                
+    |   |-- MainLayout.jsx      
+    |   --- AdminLayout.jsx     
+    |
+    |-- pages/                  
+    |   |-- Home.jsx            
+    |   --- admin/
+    |       |-- Login.jsx       
+    |       --- Dashboard.jsx   
+    |
+    |-- routes/                 
+    |   |-- AppRoutes.jsx       
+    |   --- ProtectedRoute.jsx  
+    |
+    --- services/               
+        |-- api.js             
+        --- auth.js             
+
+ 
+backend/
+|
+|-- .env                        
+|                               
+|-- .dockerignore               
+|-- Dockerfile                  
+|-- requirements.txt             
+|-- venv/                        
+|
+--- app/
+    |--ML/
+    |   |
+    |   |---train_intent_model.PY
+    |
+    |-- __init__.py              
+    |-- main.py                  
+    |                            
+    |-- database.py              
+    |-- models.py                
+    |-- auth.py                  
+    |
+    --- routers/                 
+        |-- __init__.py          
+        |-- admin.py             
+        --- chat.py              
+
+ 
