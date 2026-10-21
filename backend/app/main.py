@@ -11,7 +11,7 @@ from sqlalchemy.exc import OperationalError
 
 from .auth import md5
 from .database import Base, SessionLocal, engine
-from .models import Admin
+from .models import Admin, AvaConversation, AvaMessage
 from .routers import admin, chat
 
 app = FastAPI(title="Ava AI Receptionist API")

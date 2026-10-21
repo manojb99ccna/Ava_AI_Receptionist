@@ -9,6 +9,7 @@ export default function Chatbox() {
   const [input, setInput] = useState('')
   const [sending, setSending] = useState(false)
   const endRef = useRef(null)
+  const [sessionId, setSessionId] = useState(null)
 
   useEffect(() => {
     endRef.current?.scrollIntoView({ behavior: 'smooth' })
@@ -26,10 +27,16 @@ export default function Chatbox() {
       const res = await fetch(CHAT_API_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: text }),
+        body: JSON.stringify({ message: text, ...(sessionId && { session_id: sessionId }), }),
       })
       if (!res.ok) throw new Error(`Request failed: ${res.status}`)
       const data = await res.json()
+    
+      if (data.session_id) {
+        setSessionId(data.session_id)
+      }
+
+
       setMessages((prev) => [...prev, { from: 'ava', text: data.reply }])
     } catch {
       setMessages((prev) => [...prev, { from: 'ava', text: 'Sorry, I could not reach the server. Please try again.' }])
