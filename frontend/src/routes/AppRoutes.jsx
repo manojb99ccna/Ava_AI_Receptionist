@@ -5,6 +5,11 @@ import ProtectedRoute from './ProtectedRoute.jsx'
 import Home from '../pages/Home.jsx'
 import Login from '../pages/admin/Login.jsx'
 import Dashboard from '../pages/admin/Dashboard.jsx'
+import Leads from '../pages/admin/Leads.jsx'
+import Conversations from '../pages/admin/Conversations.jsx'
+import Faqs from '../pages/admin/Faqs.jsx'
+
+
 export default function AppRoutes() {
   return (
     <Routes>
@@ -13,10 +18,16 @@ export default function AppRoutes() {
       </Route>
 
       <Route path="/admin/login" element={<Login />} />
+      
       <Route element={<ProtectedRoute />}>
         <Route element={<AdminLayout />}>
-          <Route path="/admin" element={<Dashboard />} />        </Route>
+          <Route path="/admin" element={<Dashboard />} />
+          <Route path="/admin/leads" element={<Leads />} />
+          <Route path="/admin/conversations" element={<Conversations />} />
+          <Route path="/admin/faqs" element={<Faqs />} />
+        </Route>
       </Route>
+      
 
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>

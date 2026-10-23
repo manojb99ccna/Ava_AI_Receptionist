@@ -12,7 +12,7 @@ from sqlalchemy.exc import OperationalError
 from .auth import md5
 from .database import Base, SessionLocal, engine
 from .models import Admin, AvaConversation, AvaMessage
-from .routers import admin, chat
+from .routers import admin, chat, leads, conversations, faqs
 
 app = FastAPI(title="Ava AI Receptionist API")
 
@@ -26,6 +26,9 @@ app.add_middleware(
 
 app.include_router(admin.router)
 app.include_router(chat.router)
+app.include_router(leads.router)
+app.include_router(conversations.router)
+app.include_router(faqs.router)
 
 
 @app.on_event("startup")
