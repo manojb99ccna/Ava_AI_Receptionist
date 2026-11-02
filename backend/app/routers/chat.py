@@ -199,7 +199,7 @@ def chat(request: ChatRequest):
         #intent = model.predict(X)[0]
         intent = str(model.predict(X)[0])
 
-        log_debug_data("Step 2a: Intent Detected by ML Model", {"intent": intent, "message": message, "X_vector": X.toarray().tolist()})
+        log_debug_data("Step 2a: Intent Detected by ML Model", {"intent": intent, "message": message})
 
         # --- SMART KEYWORD OVERRIDES --- 
         msg_lower = message.lower()
@@ -293,7 +293,7 @@ def chat(request: ChatRequest):
                     reply = faq_answer
                 else:
                     if intent == "greeting":
-                        reply = "Hello! Welcome to WebeXcellence. How can I assist you with our services today?"
+                        reply = "Hello! Welcome to WebeXcellence. How can I help you today? Would you like to explore our services or book an appointment?"
                     elif intent == "goodbye":
                         reply = "Goodbye! Feel free to reach out if you have any more questions. Have a great day!"
                     elif intent == "human_escalation":

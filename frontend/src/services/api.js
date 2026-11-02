@@ -26,6 +26,8 @@ export const getAdminMe = () => request('/admin/me')
 // --- ADMIN LEADS API ---
 export const getLeads = () => request('/admin/leads')
 
+export const getAppointments = () => request('/admin/appointments')
+
 // --- ADMIN FAQS API ---
 export const getFaqs = () => request('/admin/faqs')
 export const createFaq = (faqData) => request('/admin/faqs', { method: 'POST', body: JSON.stringify(faqData) })

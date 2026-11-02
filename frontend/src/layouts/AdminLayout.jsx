@@ -53,6 +53,20 @@ export default function AdminLayout() {
                 <i className="bi bi-people me-2"></i>Leads
               </NavLink>
             </li>
+
+
+            <li className="nav-item">
+              <NavLink
+                to="/admin/appointments"
+                className={({ isActive }) =>
+                  `nav-link ${isActive ? "active" : "text-dark"}`
+                }
+              >
+                <i className="bi bi-people me-2"></i>Appointments
+              </NavLink>
+            </li> 
+            
+
             <li className="nav-item">
               <NavLink
                 to="/admin/conversations"

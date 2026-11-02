@@ -6,6 +6,7 @@ import Home from '../pages/Home.jsx'
 import Login from '../pages/admin/Login.jsx'
 import Dashboard from '../pages/admin/Dashboard.jsx'
 import Leads from '../pages/admin/Leads.jsx'
+import Appointments from '../pages/admin/Appointments.jsx'
 import Conversations from '../pages/admin/Conversations.jsx'
 import Faqs from '../pages/admin/Faqs.jsx'
 
@@ -23,6 +24,7 @@ export default function AppRoutes() {
         <Route element={<AdminLayout />}>
           <Route path="/admin" element={<Dashboard />} />
           <Route path="/admin/leads" element={<Leads />} />
+          <Route path="/admin/appointments" element={<Appointments />} />
           <Route path="/admin/conversations" element={<Conversations />} />
           <Route path="/admin/faqs" element={<Faqs />} />
         </Route>

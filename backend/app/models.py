@@ -106,3 +106,31 @@ class AvaBusinessFAQ(Base):
     is_active = Column(Boolean, default=True, nullable=False)
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+
+class AvaAppointment(Base):
+    __tablename__ = "ava_appointments"
+
+    id = Column(Integer, primary_key=True, index=True)
+
+    name = Column(String(100), nullable=False)
+    phone = Column(String(30), nullable=False)
+    email = Column(String(255), nullable=True)
+
+    service = Column(String(255), nullable=True)
+
+    appointment_date = Column(DateTime, nullable=False)
+    duration_minutes = Column(Integer, nullable=False, default=60)
+
+    status = Column(String(30), nullable=False, default="pending")
+
+    notes = Column(Text, nullable=True)
+    source = Column(String(50), nullable=False, default="website_chat")
+
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(
+        DateTime,
+        server_default=func.now(),
+        onupdate=func.now()
+    )

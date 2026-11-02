@@ -66,14 +66,7 @@ def init_db():
                 raise
             time.sleep(2)
 
-    with SessionLocal() as db:
-        if not db.query(Admin).first():
-            db.add(Admin(
-                username=os.getenv("ADMIN_USERNAME", "admin"),
-                password=md5(os.getenv("ADMIN_PASSWORD", "admin123")),
-                name="Administrator",
-            ))
-            db.commit()
+  
 
 
 @app.get("/api/health")

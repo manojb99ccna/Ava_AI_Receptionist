@@ -1,0 +1,2330 @@
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'website price?',
+    'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 37,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 10, 30, 12, 52, 47),
+                     'current_step': None,
+                     'id': 37,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19',
+                     'updated_at': datetime.datetime(2026, 10, 30, 13, 4, 48)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'website price?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'Our pricing varies depending on the specific service and '
+                  'project scope. Please schedule a consultation or contact '
+                  'our team for a personalized quote.',
+    'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 37, 'message': 'website price?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 37}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'website price',
+    'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 37,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 10, 30, 12, 52, 47),
+                     'current_step': None,
+                     'id': 37,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19',
+                     'updated_at': datetime.datetime(2026, 10, 30, 13, 4, 48)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'website price'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'Our pricing varies depending on the specific service and '
+                  'project scope. Please schedule a consultation or contact '
+                  'our team for a personalized quote.',
+    'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 37, 'message': 'website price'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 37}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'price', 'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 37,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 10, 30, 12, 52, 47),
+                     'current_step': None,
+                     'id': 37,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19',
+                     'updated_at': datetime.datetime(2026, 10, 30, 13, 4, 48)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'price'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 37, 'message': 'price'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 37}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'price?', 'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 37,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 10, 30, 12, 52, 47),
+                     'current_step': None,
+                     'id': 37,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'fdf11890-85d0-44e3-823b-52e8096b4c19',
+                     'updated_at': datetime.datetime(2026, 10, 30, 13, 4, 48)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'price?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 37, 'message': 'price?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 37}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'your contact details', 'session_id': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': None,
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 41, 55)},
+    'intent': None,
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'your contact details'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'your contact details'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'your email', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'contact',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 41, 55)},
+    'intent': 'contact',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'your email'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'You can reach us via our website chat, email at '
+                  'support@webexcellence.com, or through our contact form.',
+    'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'your email'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'what is your contact details',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'contact',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 41, 55)},
+    'intent': 'contact',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'what is your contact details'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'You can reach us via our website chat, email at '
+                  'support@webexcellence.com, or through our contact form.',
+    'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'what is your contact details'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'hello', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'contact',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 41, 55)},
+    'intent': 'contact',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'hello'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'hello'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'what service you provide',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 43, 42)},
+    'intent': 'greeting',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'services', 'message': 'what service you provide'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'services'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'services'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'what service you provide'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'your price ?',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'services',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 43, 55)},
+    'intent': 'services',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'your price ?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'your price ?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'your rate?', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 44, 43)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'your rate?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'your rate?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'how much do you charge?',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 44, 43)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'pricing', 'message': 'how much do you charge?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'Our pricing varies depending on the specific service and '
+                  'project scope. Please schedule a consultation or contact '
+                  'our team for a personalized quote.',
+    'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'how much do you charge?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'i want book', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 44, 43)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'appointment', 'message': 'i want book'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'appointment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'i want book'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'gajendra', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_name',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_name',
+                     'id': 38,
+                     'intent': 'appointment',
+                     'lead_data': '{}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 19)},
+    'intent': 'appointment',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'gajendra'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_name'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'gajendra'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': '5454545', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_phone',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_phone',
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "gajendra"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 28)},
+    'intent': 'greeting',
+    'lead_data': {'name': 'gajendra'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': '5454545'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_phone'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': '5454545'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': '8989898989', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_phone',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_phone',
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "gajendra"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 28)},
+    'intent': 'greeting',
+    'lead_data': {'name': 'gajendra'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': '8989898989'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_phone'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': '8989898989'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'webdevelopment',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_service',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_service',
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "gajendra", "phone": "8989898989"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 34)},
+    'intent': 'greeting',
+    'lead_data': {'name': 'gajendra', 'phone': '8989898989'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'webdevelopment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_service'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'webdevelopment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': '5', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_datetime',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_datetime',
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "gajendra", "phone": "8989898989", '
+                                  '"requested_service": "webdevelopment"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 40)},
+    'intent': 'greeting',
+    'lead_data': {   'name': 'gajendra',
+                     'phone': '8989898989',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': '5'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_datetime'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': '5'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'Tomorrow at 24 PM',
+    'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': 'collecting_datetime',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': 'collecting_datetime',
+                     'id': 38,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "gajendra", "phone": "8989898989", '
+                                  '"requested_service": "webdevelopment"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 45, 40)},
+    'intent': 'greeting',
+    'lead_data': {   'name': 'gajendra',
+                     'phone': '8989898989',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'Tomorrow at 24 PM'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_datetime'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 5: Appointment Scheduled
+--------------------------------------------------
+{'lead': <app.models.AvaLead object at 0x7b623133b110>}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'Tomorrow at 24 PM'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'thanks', 'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 38,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 3, 41, 55),
+                     'current_step': None,
+                     'id': 38,
+                     'intent': None,
+                     'lead_data': '{"name": "gajendra", "phone": "8989898989", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "Tomorrow at 24 PM"}',
+                     'session_id': 'f0f62de3-258e-4ffc-abac-b7f2a396c53f',
+                     'updated_at': datetime.datetime(2026, 11, 2, 3, 47, 40)},
+    'intent': None,
+    'lead_data': {   'name': 'gajendra',
+                     'phone': '8989898989',
+                     'preferred_datetime': 'Tomorrow at 24 PM',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'goodbye', 'message': 'thanks'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 38, 'message': 'thanks'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 38}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'hi', 'session_id': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': None,
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 3)},
+    'intent': None,
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'yes', 'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': 'greeting',
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 4)},
+    'intent': 'greeting',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'yes'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'yes'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'what your charges?',
+    'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': 'greeting',
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 4)},
+    'intent': 'greeting',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'services', 'message': 'what your charges?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'Our pricing varies depending on the specific service and '
+                  'project scope. Please schedule a consultation or contact '
+                  'our team for a personalized quote.',
+    'intent': 'pricing'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'what your charges?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'how to contact',
+    'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': 'pricing',
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 25)},
+    'intent': 'pricing',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'how to contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'You can reach us via our website chat, email at '
+                  'support@webexcellence.com, or through our contact form.',
+    'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'how to contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'how to connect thruou chat',
+    'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': 'contact',
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 41)},
+    'intent': 'contact',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'human_escalation', 'message': 'how to connect thruou chat'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'human_escalation'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'human_escalation'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'how to connect thruou chat'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'yes', 'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 39,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 4, 54, 3),
+                     'current_step': None,
+                     'id': 39,
+                     'intent': 'human_escalation',
+                     'lead_data': '{}',
+                     'session_id': 'fe483f05-1e45-429b-a867-bc2ea30727a0',
+                     'updated_at': datetime.datetime(2026, 11, 2, 4, 54, 58)},
+    'intent': 'human_escalation',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'yes'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 39, 'message': 'yes'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 39}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'hi how are you', 'session_id': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 40,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 20, 44),
+                     'current_step': None,
+                     'id': 40,
+                     'intent': None,
+                     'lead_data': '{}',
+                     'session_id': '4513ac61-078e-4943-a064-ede8a7cae39b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 20, 44)},
+    'intent': None,
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'business_hours', 'message': 'hi how are you'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'business_hours'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'We are open Monday through Friday from 9:00 AM to 6:00 PM.',
+    'intent': 'business_hours'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 40, 'message': 'hi how are you'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 40}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'hi', 'session_id': '4513ac61-078e-4943-a064-ede8a7cae39b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 40,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 20, 44),
+                     'current_step': None,
+                     'id': 40,
+                     'intent': 'business_hours',
+                     'lead_data': '{}',
+                     'session_id': '4513ac61-078e-4943-a064-ede8a7cae39b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 20, 44)},
+    'intent': 'business_hours',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 40, 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 40}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'hi', 'session_id': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': None,
+                     'lead_data': '{}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 5)},
+    'intent': None,
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'hi'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'appoitment', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 6)},
+    'intent': 'greeting',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'appoitment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'appoitment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'appointment?',
+    'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 6)},
+    'intent': 'greeting',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'appointment', 'message': 'appointment?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'appointment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'appointment?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'tmanoj', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': 'collecting_name',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': 'collecting_name',
+                     'id': 41,
+                     'intent': 'appointment',
+                     'lead_data': '{}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 20)},
+    'intent': 'appointment',
+    'lead_data': {}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'tmanoj'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_name'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'tmanoj'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': '9879798797', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': 'collecting_phone',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': 'collecting_phone',
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "tmanoj"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 23)},
+    'intent': 'greeting',
+    'lead_data': {'name': 'tmanoj'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': '9879798797'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_phone'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': '9879798797'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'webdevelopment',
+    'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': 'collecting_service',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': 'collecting_service',
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 26)},
+    'intent': 'greeting',
+    'lead_data': {'name': 'tmanoj', 'phone': '9879798797'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'webdevelopment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_service'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'webdevelopment'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': '2 pm', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': 'collecting_datetime',
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': 'collecting_datetime',
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 31)},
+    'intent': 'greeting',
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': '2 pm'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': 'collecting_datetime'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 5: Appointment Scheduled
+--------------------------------------------------
+{'lead': <app.models.AvaLead object at 0x7f09c5183230>}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': '2 pm'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'ok', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': None,
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "2 pm"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 34)},
+    'intent': None,
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'preferred_datetime': '2 pm',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'greeting', 'message': 'ok'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'ok'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{'message': 'thanks', 'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'greeting',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "2 pm"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 40)},
+    'intent': 'greeting',
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'preferred_datetime': '2 pm',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'goodbye', 'message': 'thanks'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'thanks'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'i want human support',
+    'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'goodbye',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "2 pm"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 43)},
+    'intent': 'goodbye',
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'preferred_datetime': '2 pm',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'human_escalation', 'message': 'i want human support'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'human_escalation'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{'faq_answer': None, 'intent': 'human_escalation'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'i want human support'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'yes i want to contact details?',
+    'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'human_escalation',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "2 pm"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 23, 54)},
+    'intent': 'human_escalation',
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'preferred_datetime': '2 pm',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'contact', 'message': 'yes i want to contact details?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 6: FAQ Matching Result
+--------------------------------------------------
+{   'faq_answer': 'You can reach us via our website chat, email at '
+                  'support@webexcellence.com, or through our contact form.',
+    'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'yes i want to contact details?'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: User Message Received
+--------------------------------------------------
+{   'message': 'i want to schedule callback',
+    'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: Conversation State Before Processing
+--------------------------------------------------
+{   'conversation_id': 41,
+    'current_step': None,
+    'full_data': {   'created_at': datetime.datetime(2026, 11, 2, 12, 23, 5),
+                     'current_step': None,
+                     'id': 41,
+                     'intent': 'contact',
+                     'lead_data': '{"name": "tmanoj", "phone": "9879798797", '
+                                  '"requested_service": "webdevelopment", '
+                                  '"preferred_datetime": "2 pm"}',
+                     'session_id': '04e0609e-9a41-418c-97fa-55e261697c9b',
+                     'updated_at': datetime.datetime(2026, 11, 2, 12, 24, 10)},
+    'intent': 'contact',
+    'lead_data': {   'name': 'tmanoj',
+                     'phone': '9879798797',
+                     'preferred_datetime': '2 pm',
+                     'requested_service': 'webdevelopment'}}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2a: Intent Detected by ML Model
+--------------------------------------------------
+{'intent': 'appointment', 'message': 'i want to schedule callback'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 3: Intent Detected
+--------------------------------------------------
+{'intent': 'contact'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 4: Processing Conversation Step
+--------------------------------------------------
+{'current_step': None}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 7: Saving User Message
+--------------------------------------------------
+{'conversation_id': 41, 'message': 'i want to schedule callback'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 8: Committing Changes
+--------------------------------------------------
+{'conversation_id': 41}
+==================================================
