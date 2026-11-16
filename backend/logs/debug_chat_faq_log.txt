@@ -819,3 +819,189 @@ TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
 --------------------------------------------------
 {'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
 ==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'hello'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'thanks'],
+    'detected_intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'goodbye', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'hello'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'hello'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'thanks'],
+    'detected_intent': 'goodbye'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'goodbye', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'manojt'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'mm'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 2: TF-IDF Matrix
+--------------------------------------------------
+{'detected_intent': 'greeting', 'tfidf_matrix_shape': (10, 33)}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  'hi'],
+    'detected_intent': 'greeting'}
+==================================================
+
+==================================================
+TIMESTAMP / LABEL: Step 1: FAQ Corpus for TF-IDF
+--------------------------------------------------
+{   'corpus': [   'How much do you charge for a website?',
+                  'What are your rates?',
+                  'Can you build a custom web app?',
+                  'Do you do digital marketing?',
+                  'Are you open on weekends?',
+                  'What is your email address?',
+                  'What is your refund and cancellation policy?',
+                  'What is your contact details?',
+                  'What services your provide?',
+                  '10'],
+    'detected_intent': 'greeting'}
+==================================================

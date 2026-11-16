@@ -1,4 +1,4 @@
-from sqlalchemy import Boolean, Column, DateTime, ForeignKey, Integer, String, Text, func
+from sqlalchemy import Boolean, Column, DateTime, Time, ForeignKey, Integer, String, Text, func
 
 from .database import Base
 
@@ -113,24 +113,38 @@ class AvaAppointment(Base):
     __tablename__ = "ava_appointments"
 
     id = Column(Integer, primary_key=True, index=True)
-
     name = Column(String(100), nullable=False)
     phone = Column(String(30), nullable=False)
     email = Column(String(255), nullable=True)
-
     service = Column(String(255), nullable=True)
-
-    appointment_date = Column(DateTime, nullable=False)
+    appointment_date = Column(DateTime, nullable=False, index=True)
     duration_minutes = Column(Integer, nullable=False, default=60)
-
     status = Column(String(30), nullable=False, default="pending")
-
     notes = Column(Text, nullable=True)
     source = Column(String(50), nullable=False, default="website_chat")
-
     created_at = Column(DateTime, server_default=func.now())
     updated_at = Column(
         DateTime,
         server_default=func.now(),
         onupdate=func.now()
     )
+
+class AvaBusinessSetting(Base):
+    __tablename__ = "ava_business_settings"
+    id = Column(Integer, primary_key=True, index=True)
+    timezone = Column(String(100), nullable=False, default="Asia/Kolkata")
+    appointment_duration_minutes = Column(Integer, nullable=False, default=60)
+    booking_window_days = Column(Integer, nullable=False, default=7)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())
+
+
+class AvaBusinessWorkingHour(Base):
+    __tablename__ = "ava_business_working_hours"
+    id = Column(Integer, primary_key=True, index=True)
+    day_of_week = Column(Integer, nullable=False, unique=True)
+    is_open = Column(Boolean, nullable=False, default=True)
+    opening_time = Column(Time, nullable=True)
+    closing_time = Column(Time, nullable=True)
+    created_at = Column(DateTime, server_default=func.now())
+    updated_at = Column(DateTime, server_default=func.now(), onupdate=func.now())

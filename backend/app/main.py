@@ -4,6 +4,8 @@ import traceback
 from fastapi import Request
 from dotenv import load_dotenv
 from fastapi.responses import JSONResponse
+
+""" from backend.app.routers import appointments """
 load_dotenv()
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
@@ -11,7 +13,7 @@ from sqlalchemy.exc import OperationalError
 from .auth import md5
 from .database import Base, SessionLocal, engine
 from .models import Admin, AvaConversation, AvaMessage
-from .routers import admin, chat, leads, conversations, faqs
+from .routers import admin, chat, leads, conversations, faqs,appointments
 from app.utils.logger import log_debug_data
 
 app = FastAPI(title="Ava AI Receptionist API")
@@ -29,6 +31,7 @@ app.include_router(chat.router)
 app.include_router(leads.router)
 app.include_router(conversations.router)
 app.include_router(faqs.router)
+app.include_router(appointments.router)
 
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
